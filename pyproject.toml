@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "3min-python-speechai"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.14.0"
+django = "^4.2.6"
+gtts = "^2.4.0"
+speechrecognition = "^3.10.0"
+playsound = "1.2.2"
+wheel = "^0.41.2"
+pyaudio = "^0.2.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
